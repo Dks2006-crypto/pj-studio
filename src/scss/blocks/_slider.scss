@@ -1,0 +1,58 @@
+.banner {
+    width: 100%;
+    padding-top: 30px;
+
+    &__slider {
+        position: relative;
+        width: 100%;
+
+        &-wrapper {
+            width: 100%;
+        }
+
+        &-slide {
+            width: 100%;
+            background-color: #FFE2B5;
+            border-radius: 75px;
+            background-image: url(../../img/Group.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+    }
+}
+
+.inside {
+    &__description {
+        padding-top: 45px;
+        padding-left: 75px;
+        display: flex;
+        flex-direction: column;
+        color: black;
+        &-title {
+            font-size: 52px;
+            font-weight: 500;
+            line-height: 78px;
+            padding-bottom: 10px;
+
+            &--active {
+                font-weight: 700;
+            }
+        }
+
+        &-text {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            padding-bottom: 27px;
+        }
+        &-block{
+            padding-bottom: 115px;
+        }
+        &-link{
+            padding: 15px 22px 17px 25px;
+            background-color: rgb(0, 0, 0);
+            color: #D0AD37;
+            border-radius: 95px;
+        }
+    }
+}
