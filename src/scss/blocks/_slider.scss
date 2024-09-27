@@ -18,6 +18,12 @@
             background-image: url(../../img/Hot.png);
             background-repeat: no-repeat;
             background-position: 95% center;
+            &--second{
+                background-color: #D3FBD9;
+            }
+            &--three{
+                background-color: #FFDC62;
+            }
         }
 
         &-btn {
