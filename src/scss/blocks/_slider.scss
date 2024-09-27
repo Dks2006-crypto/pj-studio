@@ -14,20 +14,45 @@
             width: 100%;
             background-color: #FFE2B5;
             border-radius: 75px;
-            background-image: url(../../img/Group.png);
+            z-index: 2;
+            background-image: url(../../img/Hot.png);
             background-repeat: no-repeat;
-            background-position: right center;
+            background-position: 95% center;
+        }
+
+        &-btn {
+            position: absolute;
+            top: 50%;
+            background-color: black;
+            padding: 21px;
+            background-color: #fff;
+            border-radius: 50%;
+            z-index: 99;
+
+            &--prev {
+                left: -15px;
+            }
+
+            &--next {
+                right: -15px;
+            }
         }
     }
 }
 
 .inside {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    position: relative;
+
     &__description {
         padding-top: 45px;
         padding-left: 75px;
         display: flex;
         flex-direction: column;
         color: black;
+
         &-title {
             font-size: 52px;
             font-weight: 500;
@@ -45,14 +70,19 @@
             line-height: 30px;
             padding-bottom: 27px;
         }
-        &-block{
-            padding-bottom: 115px;
-        }
-        &-link{
+
+        &-link {
             padding: 15px 22px 17px 25px;
             background-color: rgb(0, 0, 0);
             color: #D0AD37;
             border-radius: 95px;
         }
+    }
+
+    &__sneakers {
+        position: absolute;
+        bottom: 0;
+        right: 43%;
+        z-index: -1;
     }
 }
