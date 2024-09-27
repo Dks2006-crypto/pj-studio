@@ -8,6 +8,13 @@
         gap: 40px;
         padding: 0;
         margin-bottom: 65px;
+        @include small-tablet{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        @include mobile {
+            grid-template-columns: 1fr;
+        }
     }
 
     &__card {
@@ -54,7 +61,9 @@
             gap: 50px;
             align-items: center;
             padding-bottom: 15px;
-
+            @include small-tablet{
+                gap: 15px;
+            }
             &-text {
                 font-size: 10px;
                 font-weight: 700;
