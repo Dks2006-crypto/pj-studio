@@ -1,0 +1,60 @@
+.header{
+    width: 100%;
+    padding-top: 30px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-left{
+            display: flex;
+            gap: 10px;
+            &-menu{
+                padding: 10px 15px;
+                border-radius: 60px;
+                background-color: #E7E9EB;
+            }
+            &-search{
+                padding: 10px 15px;
+                border-radius: 60px;
+                padding-left: 30px;
+                background: url(../../img/icon.svg) no-repeat;
+                background-position: 5px center;
+                background-color: #E7E9EB;
+            }
+        }
+        &-right{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 45px;
+            &-icons{
+                display: flex;
+                gap: 30px;
+                &Card{
+                    display: flex;
+                    gap: 6px;
+                    &Two{
+                        padding: 5px 10px;
+                        background-color: #F67280;
+                        border-radius: 50%;
+                        color: white;
+                    }
+                }
+            }
+            &-choice{
+                display: flex;
+                gap: 10px;
+                &Lang{
+                    padding: 8px 15px;
+                    background-color: #E7E9EB;
+                    border-radius: 15px;
+                }
+                &Curr{
+                    padding: 8px 15px;
+                    background-color: #E7E9EB;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}

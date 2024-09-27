@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Стартовый шаблон</title>
+		<meta name="description" content="Краткое описание страницы, которое будет отображаться в результатах поиска." />
+		<meta name="keywords" content="ключевое слово 1, ключевое слово 2, ключевое слово 3" />
+		<meta name="author" content="Ваше имя или название компании" />
+		<meta http-equiv="cache-control" content="max-age=1800" />
+		<meta http-equiv="refresh" content="30" />
+		<meta name="theme-color" content="#317EFB" />
+		<meta property="og:title" content="Заголовок страницы" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://example.com/page.html" />
+		<meta property="og:image" content="https://example.com/image.jpg" />
+		<meta property="og:description" content="Описание страницы, которое будет отображаться в социальных сетях." />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Заголовок страницы" />
+		<meta name="twitter:description" content="Описание страницы" />
+		<meta name="twitter:image" content="https://example.com/image.jpg" />
+		<meta name="language" content="ru" />
+		<meta name="robots" content="index, nofollow" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+		<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+	</head>
+	<body class="website" id="website">
+		<header class="website__header header" id="header">
+			<div class="container header__container">
+				<div class="header__content">
+					<div class="header__content-left">
+						<div class="header__content-left-menu">
+							<i class="header__content-left-menuIcon bx bx-menu-alt-left"></i>
+							<span class="header__content-left-menuText">Menu</span>
+						</div>
+						<div class="header__content-left-search">
+							<input type="search" class="header__content-left-serachInput" placeholder="Search" />
+						</div>
+					</div>
+					<img src="./img/logo.svg" alt=" Логотип сайта" class="header__content-logo" />
+					<div class="header__content-right">
+						<div class="header__content-right-icons">
+							<img class="header__content-right-iconsUser" src="./img/User.svg" alt="" />
+							<img class="header__content-right-iconsHeart" src="./img/Heart.svg" alt="" />
+							<div class="header__content-right-iconsCard">
+								<img src="./img/Cart.svg" alt="" class="header__content-right-iconsCardSvg" />
+								<span class="header__content-right-iconsCardTwo">2</span>
+							</div>
+						</div>
+						<div class="header__content-right-choice">
+							<div class="header__content-right-choiceLang">
+								<span class="header__content-right-choiceLangText">ENG</span>
+								<i class="bx bx-chevron-down"></i>
+							</div>
+							<div class="header__content-right-choiceCurr">
+								<span class="header__content-right-choiceCurrText">USD</span>
+								<i class="bx bx-chevron-down"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="website__layout">
+			<main class="website__main main" id="main">
+				<div class="main__wrapper">
+					Контент сайта
+				</div>
+			</main>
+		</div>
+		<footer class="website__footer footer" id="footer">
+			<div class="container footer__container">
+				Подвал сайта
+			</div>
+		</footer>
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
