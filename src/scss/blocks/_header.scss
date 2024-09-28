@@ -1,6 +1,9 @@
 .header{
     width: 100%;
     padding-top: 30px;
+    &__container{
+        position: relative;
+    }
     &__content{
         display: flex;
         justify-content: space-between;
@@ -12,6 +15,7 @@
                 padding: 10px 15px;
                 border-radius: 60px;
                 background-color: #E7E9EB;
+                z-index: 1000;
             }
             &-search{
                 padding: 10px 15px;
